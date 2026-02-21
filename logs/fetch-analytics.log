@@ -1,0 +1,41 @@
+[2026-02-21T06:12:31.218Z] 🔍 Starting LinkedIn post analytics fetcher (Enriched Mode)...
+[2026-02-21T06:12:31.314Z] 🎯 Processing all 17 posts...
+[2026-02-21T06:12:31.315Z] 🚀 Launching browser...
+[2026-02-21T06:12:31.681Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7430800949058801664/
+[2026-02-21T06:12:46.513Z]    ✅ Extracted: 111 impressions
+[2026-02-21T06:12:46.514Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7430536801808850945/
+[2026-02-21T06:12:52.746Z]    ⚠️ Skipping post with 0 impressions (likely a repost or missing metrics)
+[2026-02-21T06:12:52.760Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7430487745208320000/
+[2026-02-21T06:12:58.297Z]    ✅ Extracted: 327 impressions
+[2026-02-21T06:12:58.299Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7430076183133855744/
+[2026-02-21T06:13:03.110Z]    ✅ Extracted: 119 impressions
+[2026-02-21T06:13:03.111Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7429756487599767552/
+[2026-02-21T06:13:08.042Z]    ✅ Extracted: 272 impressions
+[2026-02-21T06:13:08.043Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7425365320984600576/
+[2026-02-21T06:13:12.790Z]    ✅ Extracted: 42 impressions
+[2026-02-21T06:13:12.790Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7425002835647455232/
+[2026-02-21T06:13:17.570Z]    ✅ Extracted: 105 impressions
+[2026-02-21T06:13:17.571Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7424692182592339968/
+[2026-02-21T06:13:22.110Z]    ✅ Extracted: 151 impressions
+[2026-02-21T06:13:22.111Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7424123046988439553/
+[2026-02-21T06:13:27.539Z]    ⚠️ Skipping post with 0 impressions (likely a repost or missing metrics)
+[2026-02-21T06:13:27.540Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7419629871552925696/
+[2026-02-21T06:13:32.247Z]    ✅ Extracted: 80 impressions
+[2026-02-21T06:13:32.248Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7419261408909017088/
+[2026-02-21T06:13:36.993Z]    ✅ Extracted: 119 impressions
+[2026-02-21T06:13:36.994Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7419223658516316160/
+[2026-02-21T06:13:41.813Z]    ✅ Extracted: 115 impressions
+[2026-02-21T06:13:41.814Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7418894879029710849/
+[2026-02-21T06:13:46.564Z]    ✅ Extracted: 83 impressions
+[2026-02-21T06:13:46.566Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7413769002205835264/
+[2026-02-21T06:13:51.141Z]    ✅ Extracted: 71 impressions
+[2026-02-21T06:13:51.142Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7411655195333476352/
+[2026-02-21T06:13:55.518Z]    ✅ Extracted: 77 impressions
+[2026-02-21T06:13:55.519Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7411243613910786048/
+[2026-02-21T06:14:00.209Z]    ✅ Extracted: 98 impressions
+[2026-02-21T06:14:00.210Z] 🔗 Processing: https://www.linkedin.com/feed/update/urn:li:activity:7409114629215268864/
+[2026-02-21T06:14:05.280Z]    ✅ Extracted: 73 impressions
+[2026-02-21T06:14:05.282Z] 💾 Saved 15 posts to C:\Users\MILAN\Downloads\Linkedin analytics\linkedin-connect\data\posts_enriched.json
+[2026-02-21T06:14:05.283Z] ☁️ Upserting enriched posts to Supabase...
+[2026-02-21T06:14:09.725Z]    ❌ Supabase upsert error: Could not find the 'content' column of 'linkedin_posts' in the schema cache
+[2026-02-21T06:14:10.136Z] 🏁 Analytics fetch completed.

@@ -1,0 +1,16 @@
+[2026-02-20T06:48:17.681Z] 🔍 Starting LinkedIn session test...
+[2026-02-20T06:48:17.682Z] 📦 Dynamically importing libraries...
+[2026-02-20T06:48:17.780Z] ✅ Libraries imported.
+[2026-02-20T06:48:17.781Z] 👤 Found account for user: demo-user
+[2026-02-20T06:48:17.782Z] 🔓 Successfully decrypted li_at token
+[2026-02-20T06:48:17.782Z] 🚀 Launching browser...
+[2026-02-20T06:48:17.905Z] 🍪 Cookie injected. Navigating to LinkedIn...
+[2026-02-20T06:48:19.170Z] ❌ Error during test: Error: page.goto: net::ERR_ABORTED at https://www.linkedin.com/
+Call log:
+[2m  - navigating to "https://www.linkedin.com/", waiting until "domcontentloaded"[22m
+
+page.goto: net::ERR_ABORTED at https://www.linkedin.com/
+Call log:
+[2m  - navigating to "https://www.linkedin.com/", waiting until "domcontentloaded"[22m
+
+    at testSession (C:\Users\MILAN\Downloads\Linkedin analytics\linkedin-connect\scripts\test-session.ts:100:20)

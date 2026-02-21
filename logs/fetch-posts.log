@@ -1,0 +1,67 @@
+[2026-02-21T10:22:57.800Z] 🔍 Starting LinkedIn post fetcher...
+[2026-02-21T10:22:57.927Z] 👤 Found account: demo-user
+[2026-02-21T10:22:57.929Z] 🚀 Launching browser...
+[2026-02-21T10:22:58.619Z] 🔗 Checking session on LinkedIn Feed...
+[2026-02-21T10:23:11.028Z] 🔗 Session valid. Navigating to https://www.linkedin.com/in/me/recent-activity/all/...
+[2026-02-21T10:23:16.810Z] ⏳ Waiting for initial posts to load...
+[2026-02-21T10:23:22.055Z] 📜 Phase 1: Scrolling 50 times (1 viewport height per scroll)...
+[2026-02-21T10:23:25.871Z]    Scroll 1/50: 5 posts loaded
+[2026-02-21T10:23:28.895Z]    Scroll 2/50: 5 posts loaded
+[2026-02-21T10:23:31.920Z]    Scroll 3/50: 6 posts loaded
+[2026-02-21T10:23:34.936Z]    Scroll 4/50: 7 posts loaded
+[2026-02-21T10:23:37.947Z]    Scroll 5/50: 8 posts loaded
+[2026-02-21T10:23:40.958Z]    Scroll 6/50: 9 posts loaded
+[2026-02-21T10:23:43.971Z]    Scroll 7/50: 11 posts loaded
+[2026-02-21T10:23:46.994Z]    Scroll 8/50: 13 posts loaded
+[2026-02-21T10:23:50.004Z]    Scroll 9/50: 14 posts loaded
+[2026-02-21T10:23:53.024Z]    Scroll 10/50: 16 posts loaded
+[2026-02-21T10:23:56.046Z]    Scroll 11/50: 17 posts loaded
+[2026-02-21T10:23:59.059Z]    Scroll 12/50: 19 posts loaded
+[2026-02-21T10:24:02.151Z]    Scroll 13/50: 20 posts loaded
+[2026-02-21T10:24:05.167Z]    Scroll 14/50: 25 posts loaded
+[2026-02-21T10:24:08.182Z]    Scroll 15/50: 25 posts loaded
+[2026-02-21T10:24:11.192Z]    Scroll 16/50: 27 posts loaded
+[2026-02-21T10:24:14.209Z]    Scroll 17/50: 28 posts loaded
+[2026-02-21T10:24:17.231Z]    Scroll 18/50: 32 posts loaded
+[2026-02-21T10:24:20.252Z]    Scroll 19/50: 32 posts loaded
+[2026-02-21T10:24:23.275Z]    Scroll 20/50: 35 posts loaded
+[2026-02-21T10:24:26.299Z]    Scroll 21/50: 39 posts loaded
+[2026-02-21T10:24:29.309Z]    Scroll 22/50: 40 posts loaded
+[2026-02-21T10:24:32.340Z]    Scroll 23/50: 43 posts loaded
+[2026-02-21T10:24:35.353Z]    Scroll 24/50: 44 posts loaded
+[2026-02-21T10:24:38.375Z]    Scroll 25/50: 46 posts loaded
+[2026-02-21T10:24:41.385Z]    Scroll 26/50: 48 posts loaded
+[2026-02-21T10:24:44.396Z]    Scroll 27/50: 50 posts loaded
+[2026-02-21T10:24:47.422Z]    Scroll 28/50: 51 posts loaded
+[2026-02-21T10:24:50.438Z]    Scroll 29/50: 54 posts loaded
+[2026-02-21T10:24:53.451Z]    Scroll 30/50: 55 posts loaded
+[2026-02-21T10:24:56.467Z]    Scroll 31/50: 59 posts loaded
+[2026-02-21T10:24:59.483Z]    Scroll 32/50: 60 posts loaded
+[2026-02-21T10:25:02.661Z]    Scroll 33/50: 66 posts loaded
+[2026-02-21T10:25:05.697Z]    Scroll 34/50: 66 posts loaded
+[2026-02-21T10:25:08.715Z]    Scroll 35/50: 66 posts loaded
+[2026-02-21T10:25:11.731Z]    Scroll 36/50: 67 posts loaded
+[2026-02-21T10:25:14.741Z]    Scroll 37/50: 67 posts loaded
+[2026-02-21T10:25:17.756Z]    Scroll 38/50: 69 posts loaded
+[2026-02-21T10:25:20.780Z]    Scroll 39/50: 70 posts loaded
+[2026-02-21T10:25:23.800Z]    Scroll 40/50: 71 posts loaded
+[2026-02-21T10:25:26.811Z]    Scroll 41/50: 73 posts loaded
+[2026-02-21T10:25:29.829Z]    Scroll 42/50: 73 posts loaded
+[2026-02-21T10:25:32.848Z]    Scroll 43/50: 77 posts loaded
+[2026-02-21T10:25:35.870Z]    Scroll 44/50: 78 posts loaded
+[2026-02-21T10:25:38.896Z]    Scroll 45/50: 79 posts loaded
+[2026-02-21T10:25:41.910Z]    Scroll 46/50: 80 posts loaded
+[2026-02-21T10:25:44.933Z]    Scroll 47/50: 80 posts loaded
+[2026-02-21T10:25:48.067Z]    Scroll 48/50: 85 posts loaded
+[2026-02-21T10:25:51.090Z]    Scroll 49/50: 85 posts loaded
+[2026-02-21T10:25:54.102Z]    Scroll 50/50: 85 posts loaded
+[2026-02-21T10:25:54.104Z] 📊 Phase 2: Extracting all posts from DOM...
+[2026-02-21T10:25:54.128Z]    Total DOM posts extracted: 85
+[2026-02-21T10:25:54.131Z] 🔍 Phase 3: Deduplicating...
+[2026-02-21T10:25:54.133Z]    Duplicates removed: 0
+[2026-02-21T10:25:54.134Z]    Total unique: 30 → Keeping latest 30: 30
+[2026-02-21T10:25:54.136Z] 💾 Phase 4: Saving to disk...
+[2026-02-21T10:25:54.139Z]    Saved 30 posts to C:\Users\MILAN\Downloads\Linkedin analytics\linkedin-connect\data\posts.json
+[2026-02-21T10:25:54.141Z] ☁️ Phase 5: Upserting posts to Supabase...
+[2026-02-21T10:25:58.055Z] ✅ 30 posts saved to Supabase
+[2026-02-21T10:25:59.124Z] 🏁 Fetch completed.
