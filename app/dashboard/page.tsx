@@ -3,6 +3,9 @@ import path from 'path';
 import Link from 'next/link';
 import RefreshButton from './RefreshButton';
 
+// Prevent static generation — this page reads from the filesystem at runtime
+export const dynamic = 'force-dynamic';
+
 interface Post {
     url: string;
     postUrn: string;
