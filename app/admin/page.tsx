@@ -63,6 +63,11 @@ export default function AdminPage() {
 
     // Fetch data from Supabase (reusable for initial load + refresh)
     const loadData = useCallback(async (showLoading = false) => {
+        if (!supabase) {
+            setError('Supabase is not configured. Please set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY environment variables.')
+            setLoading(false)
+            return
+        }
         if (showLoading) setLoading(true)
         try {
             const [pRes, sRes] = await Promise.all([
@@ -84,6 +89,8 @@ export default function AdminPage() {
     // Initial load + real-time subscriptions
     useEffect(() => {
         loadData(true)
+
+        if (!supabase) return
 
         // Subscribe to real-time changes on both tables
         const channel = supabase
